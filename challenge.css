@@ -1,0 +1,245 @@
+/* 1/diaa
+2/shahd
+3/osama
+4/omar
+5/gehad
+6/alaa
+7/yassin
+8/darin
+9/ahmed
+10/mahmoud */
+
+
+h2{
+  font-family: 'Cairo', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.front{
+  color: rgb(126 126 126);
+  text-align:justify;
+  font-family: 'Cairo', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: -20px;
+}
+
+p{
+  text-align:justify;
+  padding-left: 10px;
+  font-family: 'Cairo', sans-serif;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+
+
+.diaa{
+  grid-column: span 2;
+  position: relative;
+}
+
+.diaa::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+
+
+.shahd{
+  grid-column: span 0;
+  position: relative;
+}
+
+
+
+.shahd::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+.osama{
+  grid-row: span 3;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+
+.osama::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+.omar{
+  grid-row: span 2;
+  position: relative;
+}
+
+
+.omar::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+.ahmed{
+  grid-column: span 2;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+
+.ahmed::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+.mahmoud{
+  grid-row: 3 ;
+  grid-column: 2/span 2 ;
+  position: relative;
+}
+
+
+.mahmoud::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+
+.alaa{
+  grid-row: 4/ span 1 ;
+  grid-column: 2 / span 1 ;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+
+
+.alaa::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+.darin{
+  grid-row: 4/ span 1 ;
+  position: relative;
+}
+
+.darin::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+.gehad{
+  grid-row: 4/ span 1 ;
+  position: relative;
+}
+
+
+.gehad::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+.yassin{
+  grid-row: 4/ span 1 ;
+  position: relative;
+}
+
+
+.yassin::after{
+  content:"" ;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: rgb(248 86 16);
+  bottom: 0%;
+  left: 0%;
+}
+
+
+
+.diaa,
+.yassin,
+.gehad,
+.shahd,
+.omar,
+.mahmoud,
+.darin  {
+  background-color: white;
+}
+
+
+
+
+
+
+.grid{
+  background-color: rgb(218, 215, 215);
+  padding: 60px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 10px;
+  column-gap: 10px; 
+}
+
+.grid div{
+  text-align: justify;
+  font-size: 10px;
+}
